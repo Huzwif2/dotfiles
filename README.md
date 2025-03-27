@@ -1,5 +1,11 @@
-## Stow
+## Requirements:
+
+## Stow 
 ``` pacman -S stow```
+
+## Picom
+``` yay picom ```
+
 
 ## Installation
 
