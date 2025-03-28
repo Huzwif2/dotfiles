@@ -1,6 +1,12 @@
 set relativenumber 
 command! -nargs=1 WrapLines execute 'set textwidth=' . <args> | execute 'normal gggqG'
 
+
+" Enable transparency (if supported by terminal)
+colorscheme sorbet
+
+autocmd vimenter * hi Normal guibg=NONE ctermbg=NONE
+
 syntax enable
 
 set number
