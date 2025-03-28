@@ -1,0 +1,6 @@
+[submodule "tpm"]
+	path = tpm
+	url = git@github.com:tmux-plugins/tpm.git
+[submodule ".tmux/plugins/.tmux/plugins/tmux-resurrect"]
+	path = .tmux/plugins/.tmux/plugins/tmux-resurrect
+	url = git@github.com:tmux-plugins/tmux-resurrect.git
