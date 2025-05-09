@@ -2,8 +2,8 @@ general.import = ["~/.config/alacritty/aura-theme.toml"]
 [font]
 normal = { family = "Ubuntu Mono", style = "Regular"}
 offset = { x = 1, y = 2}
-size = 19 #19
-# Background opacity
+size = 25 #19
 
+# Background opacity
 [window]
-opacity = 0.80
+opacity = 0.90
