@@ -1,6 +1,10 @@
 set relativenumber 
-command! -nargs=1 WrapLines execute 'set textwidth=' . <args> | execute 'normal gggqG'
+" command! -nargs=1 WrapLines execute 'set textwidth=' . <args> | execute 'normal gggqG'
 
+
+set shiftwidth=4
+set softtabstop=4
+set expandtab
 set tabstop=4
 
 " Enable transparency (if supported by terminal)
@@ -25,4 +29,4 @@ Plug 'bling/vim-bufferline'
 
 call plug#end()
 
-colorscheme rosepine 
+colorscheme sorbet
