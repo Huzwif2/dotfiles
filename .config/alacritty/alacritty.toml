@@ -6,4 +6,4 @@ size = 24 #17 on laptop
 
 # Background opacity
 [window]
-# opacity = 0
+# opacity = 1
