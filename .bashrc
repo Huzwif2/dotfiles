@@ -21,10 +21,6 @@ export VISUAL=vim
 export SUDO_EDITOR=vim
 
 
-
-# Load Angular CLI autocompletion.
-source <(ng completion script)
-
 # Enable fzf key bindings
 if [ -f /usr/share/fzf/key-bindings.bash ]; then
     source /usr/share/fzf/key-bindings.bash

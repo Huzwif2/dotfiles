@@ -1,9 +1,9 @@
 general.import = ["~/.config/alacritty/aura-theme.toml"]
 [font]
-normal = { family = "Ubuntu Mono", style = "Regular"}
+normal = { family = "Ubuntu Mono", style = "Regular"} # JetBrainsMonoNL
 offset = { x = 1, y = 2}
-size = 17 #19
+size = 24 #17 on laptop
 
 # Background opacity
 [window]
-opacity = 0.90
+# opacity = 0

@@ -37,7 +37,7 @@ exec nitrogen --set-zoom Downloads/stupid.jpg
 exec zen-browser
 
 # picom 
-exec --no-startup-id picom
+exec_always --no-startup-id picom --config ~/.config/picom/picom.conf
 
 exec xrandr --output HDMI-0 --mode 2560x1440 --rate 143.97
 # Start XDG autostart .desktop files using dex. See also
